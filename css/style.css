@@ -538,3 +538,66 @@ header .news-box
 {
     width: 70%;
 }
+
+
+/* Click Cards */
+
+#cards .card__left h4
+{
+    color: var(--text-color-blue);
+    font-size: 50px;
+    font-weight: 100;
+    background: linear-gradient(43.66deg, #0073FF 15.79%, #00DEFF 81.22%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#cards .card__left h3
+{
+    font-size: 67px;
+    color: var(--text-color);
+}
+
+#cards .card__left .cashback
+{
+    display: block;
+    font-size: 22px;
+    color: var(--text-color-blue);
+    margin: 20px 0px;
+}
+
+#cards .card__left .card-order
+{
+    display: block;
+    font-size: 20px;
+    color: var(--text-color-blue);
+    margin: 50px 0px;
+}
+
+#cards .card__left .card-types
+{
+    display: flex;
+}
+
+#cards .card__left .card-types div
+{
+    width: 120px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #1E1F2E;
+    box-shadow: 3px 5px 12px rgb(0 0 0 / 7%);
+    
+}
+
+#cards .card__left .card-types div:last-child
+{
+    margin: 0px 8px;
+}
+
+#cards .card__right img
+{
+    width: 75%;
+}
