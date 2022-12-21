@@ -32,6 +32,7 @@ body
 {
     background: var(--bg-color);
     overflow-x: hidden;
+    background: url("https://click.uz/click/images/mainBg.png") no-repeat var(--bg-color);
 }
 
 /* Click Clone UZ */
@@ -613,3 +614,38 @@ header .news-box
 
 /* Click Partner */
 
+#click-partner .partner__left h2
+{
+    font-size: var(--big-size);
+    color: var(--text-color);
+}
+
+#click-partner .partner__left .description
+{
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--text-color-blue);
+    margin: 40px 0px;
+}
+
+#click-partner .partner__left .partner-statistic
+{
+    display: flex;
+    align-items: center;
+}
+#click-partner .partner__left .partner__right
+{
+    display: flex;
+    justify-content: start;
+}
+
+#click-partner .partner__rigth
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#click-partner .partner__rigth img
+{
+    width: 60rem;
+}
