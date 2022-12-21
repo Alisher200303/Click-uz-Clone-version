@@ -697,3 +697,27 @@ header .news-box
     margin: 40px 0px;
     cursor: pointer;
 }
+
+/* Section News */
+
+#news
+{
+    margin: 100px 0px;
+    text-align: center;
+}
+
+#news .news-title h2
+{
+    font-size: 70px;
+    color: var(--text-color);
+}
+
+#news .title-tabs a
+{
+    font-size: 20px;
+    color: var(--text-color-blue);
+    margin: 20px;
+    border-bottom: 1px solid;
+}
+
+#news 
