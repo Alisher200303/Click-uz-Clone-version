@@ -631,21 +631,69 @@ header .news-box
 #click-partner .partner__left .partner-statistic
 {
     display: flex;
-    align-items: center;
+    align-items: center; 
+    text-align: center;
+    position: relative;
 }
-#click-partner .partner__left .partner__right
+
+#click-partner .partner__left .partner-statistic .users-number h4
 {
-    display: flex;
-    justify-content: start;
+    font-size: 29px;
+    color: var(--text-color);
+}
+
+#click-partner .partner__left .partner-statistic .users-constant
+{
+    margin: 0px 40px;
+    position: absolute;
+    left: 40%;
+    top: -7%;
+}
+#click-partner .partner__left .partner-statistic .users-constant h4
+{
+    font-size: 29px;
+    color: var(--text-color);
+    line-height: 35px;
+}
+
+#click-partner .partner__left .partner-statistic p
+{
+    font-size: 20px;
+    color: var(--noactive-color2);
+    line-height: 25px;
+}
+#click-partner .partner__left .partner-statistic .users-number p
+{
+    font-size: 20px;
+    color: var(--noactive-color2);
 }
 
 #click-partner .partner__rigth
 {
     display: flex;
     justify-content: flex-start;
+    position: relative;
 }
 
 #click-partner .partner__rigth img
 {
+    position: absolute;
     width: 60rem;
+    right: -40%;
+}
+
+#click-partner .partner__left .more-info a button
+{
+    padding: 0px 40px;
+    height: 70px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--text-color);
+    background-image: linear-gradient(43.66deg, #0073FF 15.79%, #00DEFF 81.22%);
+    box-shadow: 5px 5px 25px rgb(0 177 227 / 31%);
+    border: none;
+    border-radius: 10px;
+    margin: 40px 0px;
+    cursor: pointer;
 }
