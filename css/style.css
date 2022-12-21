@@ -20,6 +20,12 @@
     --noactive-color: #9f9f9f;
 
     --noactive-color2: #A8AAC3;
+
+    --big-size: 67px;
+
+    --middle-size: 24px;
+
+    --small-size: 20px;
 }
 
 body
@@ -541,7 +547,10 @@ header .news-box
 
 
 /* Click Cards */
-
+#cards 
+{
+    margin: 100px 0px;
+}
 #cards .card__left h4
 {
     color: var(--text-color-blue);
@@ -601,3 +610,6 @@ header .news-box
 {
     width: 75%;
 }
+
+/* Click Partner */
+
