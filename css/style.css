@@ -704,6 +704,9 @@ header .news-box
 {
     margin: 100px 0px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #news .news-title h2
@@ -720,4 +723,114 @@ header .news-box
     border-bottom: 1px solid;
 }
 
-#news 
+#news .news__card #card
+{
+    width: 315px;
+    height: auto;
+    visibility: visible;
+    text-align: left;
+    padding: 30px 25px;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+#news .news__card #card img:first-child
+{
+    width: 100%;
+}
+
+/* Cards make hover */
+
+#news .news__card #card:hover
+{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    transition: .5s;
+}
+#news .slider
+{
+    width: 1050px;
+    display: flex;
+    overflow-x: hidden;
+    margin: 100px 0;
+    padding: 20px;
+}
+
+#news .slider-for__btn
+{
+    position: relative;
+}
+#news .news__card
+{
+    display: flex;
+
+}
+
+.size-change
+{
+    margin: 0 20px;
+}
+
+#news .news__card #card .date p
+{
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--noactive-color2);
+    padding: 30px 0px;
+}
+#news .news__card #card .card__theme
+{
+    border-bottom: 3px solid var(--text-color-blue);
+    margin: 8px 0px;
+}
+#news .news__card #card .card__theme p
+{
+    font-size: 20px;
+    color: var(--text-color-blue);
+    width: 70%;
+    cursor: pointer;
+    padding: 8px 0px;
+}
+
+#news .news__card #card .card__theme p:hover
+{
+    color: var(--text-color);
+}
+#news .news__card #card .news__description
+{
+    margin-bottom: 20px;
+}
+#news .news__card #card .news__description p
+{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+#news .news__card #card .more__info a
+{
+    display: flex;
+}
+
+#news .news__card #card .more__info p
+{
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.left-btn,
+.right-btn
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.left-btn
+{
+    left: 46%;
+}
+
+.right-btn
+{
+    right: 46%;
+}
