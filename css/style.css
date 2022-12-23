@@ -751,6 +751,7 @@ header .news-box
     width: 1050px;
     display: flex;
     overflow-x: hidden;
+    scroll-behavior: smooth;
     margin: 100px 0;
     padding: 20px;
 }
