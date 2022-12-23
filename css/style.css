@@ -26,6 +26,8 @@
     --middle-size: 24px;
 
     --small-size: 20px;
+
+    --footer-bg: #141521;
 }
 
 body
@@ -822,7 +824,7 @@ header .news-box
 .right-btn
 {
     position: absolute;
-    bottom: 0;
+    bottom: 10%;
     left: 50%;
 }
 
@@ -834,4 +836,193 @@ header .news-box
 .right-btn
 {
     right: 46%;
+}
+
+
+/* Footer Section */
+
+footer
+{
+    width: 1502px;
+    height: 700px;
+    background: var(--footer-bg);
+}
+
+
+.footer-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 15px;
+}
+.site-about,
+.company-about
+{
+    position: relative;
+    margin: 50px 45px;
+}
+.site-about img:first-child
+{
+    height: 60px;
+}
+
+.site-about h4
+{
+    color: var(--noactive-color);
+    font-size: 14px;
+}
+
+.site-about .service-number
+{
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.site-about h4
+{
+    font-size: 14px;
+    color: var(--noactive-color);
+}
+
+.info-img
+{
+    color: var(--text-color-blue);
+}
+
+.site-about .dss
+{
+    height: 50px;
+}
+
+.site-about img,
+.site-about .support-service,
+.site-about .general-question,
+.site-about .dss
+{
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+
+
+.company-about h3
+{
+    font-size: 28px;
+    color: var(--text-color);
+}
+
+.company-about a,
+ .company-about p
+{
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 30px 0px;
+    color: var(--text-color);
+    transition: .5s ease;
+}
+
+.company-about a:hover
+{
+    transition: .5s ease;
+    color: var(--text-color-blue);
+}
+
+#img-download 
+{
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+#img-download:hover
+{
+    opacity: .4;
+}
+
+form
+{
+    display: block;
+    margin-top: 0em;
+}
+
+#demo-2 input
+{
+    overflow: visible;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    display: inline-block;
+    text-align: start;
+}
+
+#demo-2 input[type=search]
+{
+    width: 15px;
+    color: var(--text-color);
+    cursor: pointer;
+    background: rgba(255,255,255,0.1) url(/img/search.svg) no-repeat 15.5px center;
+    padding: 15px 15px 15px 30px;
+    border-radius: 10em;
+    border: 0;
+    transition: .5s ease;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#demo-2 input[type=search]:focus
+{
+    width: 80%;
+    padding-left: 32px;
+    outline: none;
+    color: var(--text-color);
+    background-color: rgba(255,255,255,0.1);
+    cursor: auto;
+}
+
+
+
+[type=search]
+{
+    outline-offset: -2px;
+    /* -webkit-appearance: none; */
+}
+
+
+.footer-finish
+{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.footer-social ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.footer-social ul li
+{
+    padding-right: 20px;
+}
+
+.footer-social ul li a
+{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 300;
+    transition: .5s ease;
+}
+
+.footer-social ul li a:hover
+{
+    color: var(--text-color-blue);
+}
+
+.footer-site__experience-date p
+{
+    font-size: 18px;
+    color: var(--text-color);
 }
