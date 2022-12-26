@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *
 {
@@ -35,6 +36,13 @@ body
     background: var(--bg-color);
     overflow-x: hidden;
     background: url("https://click.uz/click/images/mainBg.png") no-repeat var(--bg-color);
+    background-position: 65% top;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Fira Sans' !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Click Clone UZ */
@@ -67,16 +75,14 @@ body
 }
 
 
-nav
+nav .service
 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
+    justify-content: flex-end;
 }
 
 nav .service,
-nav .service .languages ul,
+nav .service .languages ul, 
 nav .service .btns
 {
     display: flex;
@@ -140,11 +146,7 @@ nav .btns .out-btn
 /* Header second */
 
 
-header .news-box
-{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .news-box .reduction-box
 {
@@ -1025,4 +1027,41 @@ form
 {
     font-size: 18px;
     color: var(--text-color);
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body
+    {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .cashback
+    {
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }

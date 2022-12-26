@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLICK Up</title>
+    <title>Click Up</title>
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="respons.css">
+    <!-- <link rel="stylesheet" href="/css/responsive.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
         <header id="header">
-            <nav>
-                <div class="logo">
+            <nav class="navbar">
+                <div class="logo flex">
                     <img src="https://click.uz/click/images/logo-new.png" alt="">
                 </div>
-                <div class="service">
+                <div class="service flex">
                     <div class="languages">
                         <ul>
                             <li>UZ</li>
@@ -37,9 +39,11 @@
                         </div>
                     </div>
                 </div>
+                <div></div>
             </nav>
-            <div class="news-box">
-                <div class="reduction-box">
+            <div class="news-box grid">
+                <div></div>
+                <div class="reduction-box col-8 col-md-12">
                     <a href="#cashback">
                         <div class="cashback">
                             <p>Cashback</p>    
@@ -62,7 +66,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="call-service">
+                <div class="call-service col-4">
                     <p>Call-Center</p>
                     <p class="number">71 231 0880</p>
                 </div>
@@ -75,8 +79,8 @@
                 <p class="use-opportunite">Use new opportunities</p>
             </div>
             <div class="head">
-                <div class="left-section row col-6">
-                    <div class="left-row col-6">
+                <div class="left-section">
+                    <div class="left-row">
                         <div class="premium-info">
                             <div class="premium-title">
                                 <div class="item-icon">
@@ -130,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="left-row col-6">
+                    <div class="left-row col-6 col-sm-12">
                         <div class="premium-info">
                             <div class="premium-title">
                                 <div class="item-icon">
@@ -237,12 +241,12 @@
                     </div>
                     <div class="download-for">
                         <div class="play-market">
-                            <a href="play-market">
+                            <a href="#play-market">
                                 <img src="https://click.uz/click/images/evo1.svg"  alt="">
                             </a>
                         </div>
                         <div class="app-store">
-                            <a href="app-store">
+                            <a href="#app-store">
                                 <img src="https://click.uz/click/images/evo2.svg" alt="">
                             </a>
                         </div>
@@ -266,17 +270,17 @@
                 </div>
                 <div class="download__now">
                     <div class="play-market">
-                        <a href="play-market">
+                        <a href="#play-market">
                             <img src="https://click.uz/click/images/evo1.svg"  alt="">
                         </a>
                     </div>
                     <div class="app-store">
-                        <a href="app-store">
+                        <a href="#app-store">
                             <img src="https://click.uz/click/images/evo2.svg" alt="">
                         </a>
                     </div>
                     <div class="app-gallery">
-                        <a href="app-gallery">
+                        <a href="#app-gallery">
                             <img src="https://click.uz/click/images/evo3.svg" alt="">
                         </a>
                     </div>
@@ -307,7 +311,7 @@
                     </div>
                 </div>
                 <div class="click-wallet__info">
-                    <a href="more-info">
+                    <a href="#more-info">
                         <button>More Info</button>
                     </a>
                 </div>
@@ -320,7 +324,7 @@
             <div class="card__left col-6">
                 <h4>Become an owner</h4>
                 <h3>of branded Click <br> card</h3>
-                <a href="cashback-card">
+                <a href="#cashback-card">
                     <p class="cashback">
                         and receive up to 2% cashback
                     </p>
@@ -360,7 +364,7 @@
                     </div>
                 </div>
                 <div class="more-info">
-                    <a href="more-info">
+                    <a href="#more-info">
                         <button>More info</button>
                     </a>
                 </div>
@@ -373,8 +377,8 @@
             <div class="news-title">
                 <h2>News</h2>
                 <div class="title-tabs">
-                    <a href="seeAll">See all</a>
-                    <a href="allCompaings">All campaings</a>
+                    <a href="#seeAll">See all</a>
+                    <a href="#allCompaings">All campaings</a>
                 </div>
             </div>
             <div class="slider-for__btn">
@@ -392,7 +396,7 @@
                                 <p>We give gifts on our birthday! Click is 11 years old today! Every year we</p>
                             </div>
                             <div class="more__info">
-                                <a href="more__info">
+                                <a href="#more__info">
                                     <p>More info</p>
                                     <img src="https://click.uz/click/images/next.svg" alt="">
                                 </a>                        
@@ -410,7 +414,7 @@
                                 <p>We give gifts on our birthday! Click is 11 years old today! Every year we</p>
                             </div>
                             <div class="more__info">
-                                <a href="more__info">
+                                <a href="#more__info">
                                     <p>More info</p>
                                     <img src="https://click.uz/click/images/next.svg" alt="">
                                 </a>                        
@@ -428,7 +432,7 @@
                                 <p>We give gifts on our birthday! Click is 11 years old today! Every year we</p>
                             </div>
                             <div class="more__info">
-                                <a href="more__info">
+                                <a href="#more__info">
                                     <p>More info</p>
                                     <img src="https://click.uz/click/images/next.svg" alt="">
                                 </a>                        
@@ -446,7 +450,7 @@
                                 <p>We give gifts on our birthday! Click is 11 years old today! Every year we</p>
                             </div>
                             <div class="more__info">
-                                <a href="more__info">
+                                <a href="#more__info">
                                     <p>More info</p>
                                     <img src="https://click.uz/click/images/next.svg" alt="">
                                 </a>                        
@@ -464,7 +468,7 @@
                                 <p>We give gifts on our birthday! Click is 11 years old today! Every year we</p>
                             </div>
                             <div class="more__info">
-                                <a href="more__info">
+                                <a href="#more__info">
                                     <p>More info</p>
                                     <img src="https://click.uz/click/images/next.svg" alt="">
                                 </a>                        
@@ -482,7 +486,7 @@
                                 <p>We give gifts on our birthday! Click is 11 years old today! Every year we</p>
                             </div>
                             <div class="more__info">
-                                <a href="more__info">
+                                <a href="#more__info">
                                     <p>More info</p>
                                     <img src="https://click.uz/click/images/next.svg" alt="">
                                 </a>                        
